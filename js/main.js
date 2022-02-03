@@ -29,7 +29,7 @@ window.addEventListener('scroll', _.throttle(function (){
     });
     // badgeEl.style.display ='none';
     // 버튼보이기
-    gsap.to(toTopEl, .2, {
+    gsap.to(toTopEl, .2, { 
       x: 0
     });
   }
