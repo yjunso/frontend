@@ -391,7 +391,7 @@ header .badges .badge{
     justify-content: flex-end;
     align-items: center;
 }
-.notice .notice-line .inner__right h2{
+.notice .notice-line .inner__right h2{ 
     font-size: 17px;
     font-weight: 700;
 }
@@ -403,6 +403,7 @@ header .badges .badge{
     justify-content: center;
     align-items: center;
 }
+
 .notice .notice-line .inner__right .toggle-promotion .material-icons{
     font-size: 30px;
 }

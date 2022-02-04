@@ -98,8 +98,8 @@ new Swiper('.awards .swiper', {
   }
 })
 
-
-
+ 
+const btn_prom_pic = document.querySelector('.btn_prom');
 const promotionEl = document.querySelector('.promotion');
 const promotionToggleBtn = document.querySelector('.toggle-promotion');
 let isHidePromotion = false;
@@ -109,10 +109,13 @@ promotionToggleBtn.addEventListener('click', function(){
   if(isHidePromotion){
     //숨김 처리
     promotionEl.classList.add('hide');
+    btn_prom_pic.setAttribute("src", "./images/btn_prom_down.png");
+    
   }
   else{
     //활성화 처리
     promotionEl.classList.remove('hide');
+    btn_prom_pic.setAttribute("src", "./images/btn_prom_up.png");
   }
 
 });
